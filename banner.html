@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner example</title>
+    <style>
+        *{
+            margin: 0;
+
+        }
+        .hero{
+            background: url("./kite.jpg");
+            min-height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+        }
+        h1{
+            text-transform: uppercase;
+            font-size: 60px;
+            color: lightgreen;
+        }
+        .banner{
+            min-height: 100vh;
+            background: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Page title</h1>
+    </header>
+    <div class="banner"></div>
+    <a href="./index.html">GO BACK HOME</a>
+</body>
+</html>
