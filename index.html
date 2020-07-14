@@ -8,10 +8,11 @@
     <style>
         .container{
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
-        .box-1{
-            order: 1;
+        .box{
+            flex: 0 0 calc(25% - 1rem);
         }
     </style>
 </head>
